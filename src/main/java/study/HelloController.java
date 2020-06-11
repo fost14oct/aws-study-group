@@ -11,6 +11,6 @@ public class HelloController {
 
     @GetMapping("/test")
     public String greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
-        return "Hello";
+        return "HOT FIX";
     }
 }
