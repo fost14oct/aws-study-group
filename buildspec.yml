@@ -1,14 +1,14 @@
-version: 0.2
-phases:
-    pre_build:
-      commands:
-        - echo "Entered prebuild "
-    build:
-        commands:
-          - echo "Entered build s"
-          - mvn clean install
-          - mvn clean package spring-boot:repackage
-
-artifacts:
-  files:
-    - target/test-study-group-aws-1.0-SNAPSHOT.jar
+#version: 0.2
+#phases:
+#    pre_build:
+#      commands:
+#        - echo "Entered prebuild "
+#    build:
+#        commands:
+#          - echo "Entered build s"
+#          - mvn clean install
+#          - mvn clean package spring-boot:repackage
+#s
+#artifacts:
+#  files:
+#    - target/test-study-group-aws-1.0-SNAPSHOT.jar
