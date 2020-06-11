@@ -1,13 +1,13 @@
 version: 0.2
-  phases:
+phases:
     prebuild:
       commands:
         - echo "Entered prebuild "
-      build:
+    build:
         commands:
           - echo "Entered build s"
           - mvn clean install
 
-  artifacts:
-    files:
-      - target/test-study-group-aws-1.0-SNAPSHOT.jar
+artifacts:
+  files:
+    - target/test-study-group-aws-1.0-SNAPSHOT.jar
